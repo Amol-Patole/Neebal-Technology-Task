@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+<!-- <style>
+    .navbar {
+      display: inline-block;
+     
+    }
+
+    .navbar li {
+      display: inline-block;
+      font-size: 20px;
+    }
+
+    .navbar li a {
+      color: rgb(90, 48, 119);
+      text-decoration: none;
+      padding-left: 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.navbar {
+      text-decoration: underline;
+      color: rgb(94, 91, 91);
+    }
+</style> -->
+
+<style>
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+nav ul li a {
+      text-decoration: underline;
+      color: rgb(254, 253, 253);      
+}
+
+
+main {
+    padding: 2em 0;
+}
+
+footer {
+    color: rgb(27, 24, 24);
+    text-align: center;
+    padding: 2em 0;
+    width: 100%;
+    bottom: 0;
+}
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #007BFF;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <h1><em>Welcome to my portfolio website</em></h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       
+        <main>
+            <section id="about">
+                <h2 style="background-color:rgb(194 191 191) ;">About Me:</h2>
+                <img src="./amol.png" height="200px" width="200px" border="3px solid" alt="Profile Picture">
+            </section>
+
+           
+            <!-- <section id="media">
+                <h2>Media</h2>
+                <video controls>
+                    <source src="intro.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+
+            <section id="media">
+                <h2>Media</h2>
+                <audio controls>
+                    <source src="background-music.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section> -->
+
+            <section id="about">
+                <p><strong>Amol Patole</strong> <br>
+                    <strong>+91-8767158067</strong> <br>
+                    <strong>amolpatole321@gmail.com</strong></section>
+
+                    <section id="projects1">
+                    <table border="2px solid black" >
+                        <tbody><thead>
+                        <tr>
+                            <th align="center">Name of Institute</th>
+                            <th align="center">Name of University</th>
+                            <th align="center">Year of passing</th>
+                            <th align="center">Percentage</th>
+                        </tr>
+                    </thead>
+                        <tr>
+                            <td align="center">Terna Engineering College</td>
+                            <td  align="center">Mumbai University</td>
+                            <td align="center">2024</td>
+                            <td align="center">CGPA-9.11</td>
+                        </tr>
+                         
+                        <tr>
+                            <td align="center">Shivajirao S. Jondhale Polytechnic</td>
+                            <td  align="center">Mumbai University</td>
+                            <td align="center">2021</td>
+                            <td align="center">95%</td>
+                        </tr>
+                        </tbody>
+                        </table> <br>
+                        </section>
+
+            <section id="skills">
+                <h2 style="background-color:rgb(194 191 191) ;">Skills & Experience:</h2>
+                <p>I have experience in the following areas:</p>
+                <ol>
+                    <li>Languages
+                        <ul type="Disc">
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Java</li>
+                            <li>Html</li>
+                            <li>Css</li>
+                        </ul>
+                    </li>
+                    <li>Developer Technologies
+                        <ul type="Disc">
+                            <li>VS Code</li>
+                            <li>Android Studio</li>
+                            <li>Jupyter Notebook</li>
+                            <li>Collab</li>
+                        </ul>
+                    </li>
+                    <li>Internship
+                        <ul type="Disc">
+                        <li>Oasis Infobyte
+                            <ul type="circle">
+                                <li>Data Science Intern: Developed iris Flower classification Model.
+                                </li>
+                                </ul>
+                        </li>        
+                    </li>
+                    <li>Squad Infotech
+                        <ul type="circle">
+                            <li>Web Developer: Developed a Hotel Booking website
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                </ol>
+
+            </section> <br>
+
+            <!-- <main>
+                <section id="about">
+                    <h2>About Me:</h2>
+                    <p>Welcome to my portfolio website...</p>
+                </section>
+
+                <section id="projects">
+                    <h2>Projects</h2>
+                    <article>
+                        <h3>Project 1</h3>
+                        <p>A brief description of Project 1.</p>
+                    </article>
+                    <article>
+                        <h3>Project 2</h3>
+                        <p>A brief description of Project 2.</p>
+                    </article>
+                </section>
+                <aside>
+                    <h2>Additional Information</h2>
+                    <p>Here's some additional information about my work.</p>
+                </aside>
+
+            </main>  -->
+
+            
+            <section id="projects">
+                <h2 style="background-color:rgb(194 191 191) ;">Projects</h2>
+                <table border="2px">
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Description</th>
+                            <th>Technologies Used</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="center">Cyclone Intensity Estimation &nbsp;</td>
+                            <td align="center">A brief description of Project &nbsp;</td>
+                            <td align="center">Python,Tensorflow,RMSE metric</td>
+                            
+                        </tr>
+                        <tr>
+                            <td align="center">Olympic Data Analysis &nbsp;</td>
+                            <td align="center">A brief description of Project &nbsp;</td>
+                            <td align="center">Python,Machine learning,Amazon EC2</td>  
+                        </tr>
+                    </tbody>
+                </table>
+            </section> 
+
+            <section id="contact">
+                <h2 style="background-color:rgb(194 191 191) ;">Contact Me:</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required> <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required> <br>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required> <br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required style="resize: none;"></textarea> <br>
+                    <button type="submit" style="border-radius:20px ;">Submit</button>
+                </form>
+            </section> </main>
+    </main>
+    <footer>
+        <p style="background-color:rgb(194 191 191) ;">&copy; 2024 Amol Patole</p>
+    </footer>
+</body>
+</html>
